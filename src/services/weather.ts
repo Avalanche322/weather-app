@@ -8,7 +8,7 @@ const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 export const weatherApi = createApi({
   reducerPath: "weatherApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://api.weatherapi.com/v1",
+    baseUrl: "https://api.weatherapi.com/v1",
   }),
   endpoints: (builder) => ({
     getForecast: builder.query<
