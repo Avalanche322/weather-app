@@ -3,7 +3,7 @@ import BlockHeader from "../../../shared/BlockHeader";
 
 function WeatherSkeleton() {
   return (
-    <>
+    <Box data-testid="current-weather-skeleton">
       {/* 📍 Current Weather */}
       <Box sx={{ mb: 4 }}>
         <BlockHeader variant="h6">Current Weather</BlockHeader>
@@ -73,7 +73,7 @@ function WeatherSkeleton() {
           ))}
         </Grid>
       </Box>
-    </>
+    </Box>
   );
 }
 

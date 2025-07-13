@@ -26,6 +26,7 @@ function SearchHistoryItem({ history, option, handleDelete, ...props }: SearchHi
       {history.includes(option) && (
         <IconButton
           size="small"
+          data-testid="delete-history-item"
           onClick={(e) => {
             e.stopPropagation();
             handleDelete(option);

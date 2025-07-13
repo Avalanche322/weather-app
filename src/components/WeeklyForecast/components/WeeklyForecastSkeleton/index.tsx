@@ -24,7 +24,7 @@ function WeeklyForecastSkeleton() {
   return (
     <>
       <BlockHeader variant="h6">Weekly Forecast</BlockHeader>
-      <StyledWrapper>
+      <StyledWrapper data-testid="weekly-forecast-skeleton">
         {[...Array(5)].map((_, i) => (
           <StyledWrapperItem key={i}>
             <Skeleton variant="text" width={30} />
