@@ -31,7 +31,7 @@ function TodayForecast({ data }: { data: WeatherResponse }) {
         sx={{ alignItems: "center", justifyContent: "center" }}
       >
         {filteredHours.map((hour) => (
-          <Grid size={{ xs: 3 }} key={hour.time}>
+          <Grid size={{ md: 3, sm: 4, xs: 5 }} key={hour.time}>
             <StyledWeatherBox>
               <BlockHeader>{dayjs(hour.time).format("HH:mm")}</BlockHeader>
               <Box

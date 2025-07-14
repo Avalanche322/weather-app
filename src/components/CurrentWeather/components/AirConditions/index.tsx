@@ -17,6 +17,8 @@ function AirConditions({ current }: { current: CurrentWeather }) {
           justifyContent: "space-between",
           alignItems: "center",
           marginTop: "20px",
+			 gap: '10px',
+			 flexWrap: 'wrap'
         }}
       >
         <Box sx={{ textAlign: "center" }}>
