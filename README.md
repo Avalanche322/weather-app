@@ -30,4 +30,4 @@ A modern, responsive weather application built with **React**, **Vite**, **Redux
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
-npm install
+npm run dev
